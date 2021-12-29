@@ -43,19 +43,6 @@ h <- function(x, y = NULL, d = 3L) {
 # free variable: f
 f <- function(x, y) {
     x^2 + y / z
-} # free variable: z
-# Problem 6.
-# environment: a collection of symbol/value pair.
-# Problem 7.
-# type of scoping rule for resolving free variables: Lexical scoping
-# Problem 8.
-# free variables in R functions are resolved by:
-# The values of free variables are searched for in the environment 
-# in which the function was defined.
-# Problem 9.
-# one of the consequences of the scoping rules used in R:
-# All objects must be stored in memory.
-# Problem 10.
-# parent theme: it is the environment in which a function was called.
+
 
 
